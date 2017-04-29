@@ -16,6 +16,7 @@ api = twitter.Api(consumer_key=CONSUMER_KEY,
                   access_token_secret=ACCESS_TOKEN_SECRET)
 
 def main():
+    print("This is a Twitter Bot")
     print(api.GetDirectMessages())
 
 if __name__ == '__main__':
